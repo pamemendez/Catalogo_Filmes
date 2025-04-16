@@ -50,7 +50,7 @@
   margin: 30px 0;
 }
 .rating i {
-  color: #e50813;
+  color: #FFDB58;
   margin-right: 5px;
 }
 .rating label {
@@ -71,7 +71,7 @@
   font-size: 17px;
 }
 .cast h4 span {
-  color: #e50813;
+  color: #FFDB58;
 }
 .palyButton {
   display: flex;
@@ -91,9 +91,11 @@
   width: 90px;
   height: 90px;
   margin-right: 20px;
+  
 }
 .palyButton button:hover .change {
   opacity: 1;
+  
 }
 .palyButton button {
   cursor: pointer;
