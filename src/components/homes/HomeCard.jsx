@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genres, tags, video } }) => {
+export function HomeCard({ item: { id, cover, name, rating, time, desc, starring, genres, tags, video } }) {
   return (
     <>
       <div className='box'>
@@ -58,5 +58,3 @@ const HomeCard = ({ item: { id, cover, name, rating, time, desc, starring, genre
     </>
   )
 }
-
-export default HomeCard
