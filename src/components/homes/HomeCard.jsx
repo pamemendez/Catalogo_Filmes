@@ -38,13 +38,23 @@ export function HomeCard({ item: { id, cover, name, rating, time, desc, starring
                 {tags}
               </h4>
             </div>
-            <button className='primary-btn'>
-              <i className='fas fa-play'></i> PLAY NOW
+            <button
+              className='primary-btn'
+              onClick={() => {
+                window.location.href = `/SinglePage/${id}`;
+              }}
+              >
+              <i className='fas fa-play'></i> PLAY NOWaa
             </button>
           </div>
           <div className='palyButton row'>
-            <Link to={`/SinglePage/${id}`}>
-              <button>
+            <Link to={`/singlepage/${id}`}>
+            <button
+              className='primary-btn'
+              onClick={() => {
+                window.location.href = `/SinglePage/${id}`; 
+              }}
+            >
                 <div className='img'>
                   <img src='./images/play-button.png' alt='' />
                   <img src='./images/play.png' className='change' />

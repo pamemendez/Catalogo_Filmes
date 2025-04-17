@@ -9,6 +9,7 @@ const SinglePage = () => {
   const [item, setItem] = useState(null)
 
   useEffect(() => {
+    console.log("ID atualizado:", id)
     let item = homeData.find((item) => item.id === parseInt(id))
     if (item) {
       setItem(item)

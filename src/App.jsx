@@ -12,7 +12,10 @@ function App() {
         <Header />
         <Switch>
           <Route exact path='/' component={HomePage} />
-          <Route path='/singlepage/:id' component={SinglePage} exact />
+          <Route
+            path='/singlepage/:id'
+            render={(props) => <SinglePage key={props.match.params.id} {...props} />}
+          />
         </Switch>
         <Footer />
       </Router>

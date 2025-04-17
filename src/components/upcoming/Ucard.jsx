@@ -11,11 +11,16 @@ const Ucard = ({ item: { id, cover, name, time } }) => {
         <div className='text'>
           <h3>{name}</h3>
           <span>{time}</span> <br />
-          {/*<Link to={`/singlepage/${id}`}>*/}
-          <button className='primary-btn'>
+          <Link to={`/singlepage/${id}`}>
+          <button
+          className='primary-btn'
+          onClick={() => {
+            window.location.href = `/SinglePage/${id}`; // redireciona e recarrega a página
+          }}
+        >
             <i className='fa fa-play'></i> PLAY NOW
           </button>
-          {/*</Link>*/}
+          </Link>
         </div>
       </div>
     </>
