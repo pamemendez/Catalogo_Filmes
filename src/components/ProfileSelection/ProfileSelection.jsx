@@ -28,6 +28,8 @@ const ProfileSelection = () => {
 
     localStorage.setItem("selectedProfile", JSON.stringify(profile));
     history.push("/home");
+    window.location.href = `/home`; 
+
   };
 
   return (
