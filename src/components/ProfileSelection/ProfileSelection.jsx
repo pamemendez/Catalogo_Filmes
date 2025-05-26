@@ -17,7 +17,7 @@ const profiles = [
   },
   {
     name: "Kath",
-    img: "https://assets.epuzzle.info/puzzle/106/915/original.jpg",
+    img: "https://preview.redd.it/is-flora-weak-v0-v7bja5dgc2id1.jpeg?auto=webp&s=1a557dc47f3a8b02253e1ed7e589e2387fa97e9c",
   },
 ];
 

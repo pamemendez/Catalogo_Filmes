@@ -44,7 +44,7 @@ export function HomeCard({ item: { id, cover, name, rating, time, desc, starring
                 window.location.href = `/SinglePage/${id}`;
               }}
               >
-              <i className='fas fa-play'></i> PLAY NOWaa
+              <i className='fas fa-play'></i> PLAY NOW
             </button>
           </div>
           <div className='palyButton row'>
